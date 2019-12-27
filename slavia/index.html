@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>МПК СЛАВИЯ</title>
+  <!-- Стильевые файлы -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Вставки на фон -->
+  <img src="img/bg-left-bottom.png" class="img-bg-left-bottom">
+  <img src="img/bg-right-top.png" class="img-bg-right-top">
+  <img src="img/bg-center.png" class="img-bg-center">
+
+  <!-- Иконки слева десктоп -->
+  <div class="desctop-icons text-center " style="z-index: 5">
+    <img src="img/teleg.png"><br>    
+    <img src="img/medium.png"> <br>   
+    <img src="img/twitter.png"><br>
+    <img src="img/github.png">
+  </div>
+  
+  <!--мобильное меню тело -->
+  <div class="mobile-menu">
+    <div class="container">
+      <div class="row">
+        <ul class="mobile-menu-ul text-left">
+          <a href="coop_cards.html"><li>Кооперативные карты</li></a>
+          <a href="documents.html"><li>Документы</li></a>
+          <a href="partners.html"><li>Партнеры</li></a>
+          <a href="about_us.html"><li>О нас</li></a>
+          <a id="modal-545065" href="#modal-container-545065" role="button" class="" data-toggle="modal"><li class="btn-custom-one text-center">Авторизация</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu-bg">
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!-- Шапка главной страницы -->
+      <div class="col-md-12"  style="z-index: 5;">
+        <div class="row">
+          <div class="col-lg-4 col-9">
+            <!--Логотип и название -->
+            <img src="img/hands_logo.png" class="header-logo">
+            <h3 class="header-h3">
+              <span>МПК</span> СЛАВИЯ
+            </h3>
+
+          </div>
+          <div class="col-lg-8 col-3">
+            <!-- Десктоп меню -->
+            <ul class="desctop-menu text-right d-none d-lg-block">
+              <a href="coop_cards.html"><li>Кооперативные карты</li></a>
+              <a href="documents.html"><li>Документы</li></a>
+              <a href="partners.html"><li>Партнеры</li></a>
+              <a href="about_us.html"><li>О нас</li></a>
+              <a id="modal-545065" href="#modal-container-545065" role="button" class="" data-toggle="modal"><li class="btn-custom-one text-center">Авторизация</li></a>
+            </ul>
+
+            <!--Мобильное меню кнопка-->
+            <div class="row d-lg-none">
+              <div class="col-12 text-right">
+                <img id="burger" class="burger-ico  text-right" src="img/burger.png" status="close">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Тело главной страницы -->
+      <div class="col-lg-12 d-none d-lg-block"  style="z-index: 4;">
+        <h1 class="index-title">МПК "СЛАВИЯ"</h1>
+        <p class="index-p">Международный Потребительский Кооператив СЛАВИЯ</p>
+      </div>
+      <div class="col-md-12 justify-content-end" style="z-index: 4;">
+        <!--Кнопка регистрации на главной-->
+        <a id="modal-54506521" href="#modal-container-54506521" role="button" class="" data-toggle="modal">
+          <div class="index-registration">
+            <div class="index-registration-in text-center ">
+             <img class="index-registration-img" src="img/hands_logo.png">
+             <p class="index-registration-p">Регистрация</p>
+           </div>
+         </div>
+       </a>
+     </div>
+     <div class="col-md-12 d-lg-none text-center"  style="z-index: 4;">
+        <h1 class="index-title mobile-index-tittle">МПК "СЛАВИЯ"</h1>
+        <p  class="index-p mobile-index-p">Международный Потребительский Кооператив СЛАВИЯ</p>
+      </div>
+
+   </div>
+ </div>
+
+ <!--Модальное окно авторизации -->
+ <div class="modal fade" id="modal-container-545065" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content text-center">          
+        <!-- <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">×</span>
+        </button>      -->    
+        <h1 class="modal-h1 text-center">Авторизация в МПК "Славия"</h1>    
+        <div class="col-md-12 text-center modal-form">
+          <input class="input-modal text-center" type="text" name="login" placeholder="Логин">
+          <input class="input-modal text-center" type="password" name="password" placeholder="Пароль">
+          <div class="btn-modal ">
+            <div  class="btn-custom-one text-center">
+              Авторизоваться
+            </div>
+          </div>
+
+        </div>
+      </div>        
+    </div>
+  </div>
+
+  <!--Модальное окно регистрации -->
+  <div class="modal fade" id="modal-container-54506521" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content text-center">          
+        <!-- <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">×</span>
+        </button>      -->    
+        <h1 class="modal-h1 text-center">Регистрация в МПК "Славия"</h1>    
+        <div class="col-md-12 text-center modal-form">
+          <input class="input-modal text-center" type="text" name="NAME" placeholder="ФИО">
+          <input class="input-modal text-center" type="text" name="login" placeholder="Логин">
+          <input class="input-modal text-center" type="password" name="password1" placeholder="Пароль">          
+          <input class="input-modal text-center" type="password" name="password2" placeholder="Подтверждение пароля">
+          <div class="btn-modal">
+            <div  class="btn-custom-one text-center">
+              Зарегистрироваться
+            </div>
+          </div>
+
+        </div>
+      </div>        
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
